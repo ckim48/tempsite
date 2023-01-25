@@ -420,7 +420,7 @@ h6 {
   margin-bottom: -90px;
 }
 #hero img{
-  max-width: 20%;
+  max-width: 25%;
 }
 #hero .hero-container {
   position: absolute;
@@ -465,7 +465,7 @@ h6 {
   height: 64px;
   text-align: center;
   border: 2px solid blac;
-  color: black;
+  color: rgba(254,187,57,255);
 }
 
 #hero .btn-get-started:hover {
@@ -1531,3 +1531,7 @@ section {
   color: #fff;
 }
 
+#app{
+  font-size: 30px;
+  color:rgba(27,80,118,255);
+}
