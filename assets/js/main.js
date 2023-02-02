@@ -241,21 +241,22 @@
       }
     }
   });
-  var app = document.getElementById('app');
+//   var app = document.getElementById('app');
 
-var typewriter = new Typewriter(app, {
-    loop: true
-});
+// var typewriter = new Typewriter(app, {
+//     loop: true
+// });
 
-typewriter.typeString('분야별 <strong>코딩 전문가들</strong>이 모여 결성된 팀')
-    .pauseFor(2500)
-    .deleteAll()
-    .typeString('<strong>기업, 세계 명문대들</strong>과 함께하는 캡스톤 프로그램')
-    .pauseFor(2500)
-    .deleteAll()
-    .typeString('<strong>Python, Java, C++ 등 </strong>, 다양한 분야의 강의')
-    .pauseFor(2500)
-    .start();
+// typewriter.typeString('분야별 <strong>코딩 전문가들</strong>이 모여 결성된 팀')
+//     .pauseFor(2500)
+//     .deleteAll()
+//     .typeString('<strong>기업, 세계 명문대들</strong>과 함께하는 캡스톤 프로그램')
+//     .pauseFor(2500)
+//     .deleteAll()
+//     .typeString('<strong>Python, Java, C++ 등 </strong>, 다양한 분야의 강의')
+//     .pauseFor(2500)
+//     .start();
+
   /**
    * Animation on scroll
    */
