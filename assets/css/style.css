@@ -1542,8 +1542,8 @@ section {
     font-size: 23px;
   color:rgba(27,80,118,255);
 }
-body [data-aos-delay='6500'][data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='6500'].aos-animate {
-   transition-delay: 6.5s;
+body [data-aos-delay='4500'][data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='4500'].aos-animate {
+   transition-delay: 4.5s;
 }
 .criterion {
   font-family: 'Montserrat', sans-serif;
@@ -1564,7 +1564,7 @@ left: 64%;
 /*
 * background
 */
-.background {
+/*.background {
   position: absolute;
   top: 0;
   height: 100vh;
@@ -1615,7 +1615,7 @@ left: 64%;
   left: 100%;
   height: 100vh;
   background-color: rgba(27,80,118,255);
-}
+}*/
 /*
 * text
 */
@@ -1640,43 +1640,33 @@ left: 64%;
 .text0 {
   left: -140px;
   top: 0;
-  animation: text-animation0 1s ease-in-out 1s 1 normal forwards, text2-animation0 2s ease-in-out 5s 1 normal forwards;
+  animation: text-animation0 1s ease-in-out 1s 1 normal forwards, text2-animation0 2s ease-in-out 3s 1 normal forwards;
 }
-.text0::after {
-  animation: text-after-animation0 2s ease-in-out 3s 1 normal forwards;
-}
+
 .text1 {
   left: -100px;
   top: 0;
-  animation: text-animation1 1s ease-in-out 1.2s 1 normal forwards, text2-animation1 2s ease-in-out 5s 1 normal forwards;
+  animation: text-animation1 1s ease-in-out 1.2s 1 normal forwards, text2-animation1 2s ease-in-out 3s 1 normal forwards;
 }
-.text1::after {
-  animation: text-after-animation1 2s ease-in-out 3s 1 normal forwards;
-}
+
 .text2 {
   left: -60px;
   top: 0;
-  animation: text-animation2 1s ease-in-out 1.4s 1 normal forwards, text2-animation2 2s ease-in-out 5s 1 normal forwards;
+  animation: text-animation2 1s ease-in-out 1.4s 1 normal forwards, text2-animation2 2s ease-in-out 3s 1 normal forwards;
 }
-.text2::after {
-  animation: text-after-animation2 2s ease-in-out 3s 1 normal forwards;
-}
+
 .text3 {
   left: -20px;
   top: 0;
-  animation: text-animation3 1s ease-in-out 1.6s 1 normal forwards, text2-animation3 2s ease-in-out 5s 1 normal forwards;
+  animation: text-animation3 1s ease-in-out 1.6s 1 normal forwards, text2-animation3 2s ease-in-out 3s 1 normal forwards;
 }
-.text3::after {
-  animation: text-after-animation3 2s ease-in-out 3s 1 normal forwards;
-}
+
 .text4 {
   left: 20px;
   top: 0;
-  animation: text-animation4 1s ease-in-out 1.8s 1 normal forwards, text2-animation4 2s ease-in-out 5s 1 normal forwards;
+  animation: text-animation4 1s ease-in-out 1.8s 1 normal forwards, text2-animation4 2s ease-in-out 3s 1 normal forwards;
 }
-.text4::after {
-  animation: text-after-animation4 2s ease-in-out 3s 1 normal forwards;
-}
+
 /*.text5 {
   left: 60px;
   top: 0;
@@ -4007,79 +3997,79 @@ left: 64%;
 .particle40 {
   left: 20px;
   opacity: 0;
-  background-color: rgba(27,80,118,255);
+  background-color: rgba(254,187,57,255);
   animation: particle-animation40 1s ease-in-out 1.8s 1 normal forwards;
 }
 .particle41 {
   left: 20px;
   opacity: 0;
-  background-color: rgba(27,80,118,255);
+  background-color: rgba(254,187,57,255);
   animation: particle-animation41 1s ease-in-out 1.8s 1 normal forwards;
 }
 .particle42 {
   left: 20px;
   opacity: 0;
-  background-color: rgba(27,80,118,255);
+  background-color: rgba(254,187,57,255);
   animation: particle-animation42 1s ease-in-out 1.8s 1 normal forwards;
 }
 .particle43 {
   left: 20px;
   opacity: 0;
-  background-color: rgba(27,80,118,255);
+  background-color: rgba(254,187,57,255);
   animation: particle-animation43 1s ease-in-out 1.8s 1 normal forwards;
 }
 .particle44 {
   left: 20px;
   opacity: 0;
-  background-color: rgba(27,80,118,255);
+  background-color: rgba(254,187,57,255);
   animation: particle-animation44 1s ease-in-out 1.8s 1 normal forwards;
 }
 .particle45 {
   left: 20px;
   opacity: 0;
-  background-color: rgba(27,80,118,255);
+  background-color: rgba(254,187,57,255);
   animation: particle-animation45 1s ease-in-out 1.8s 1 normal forwards;
 }
 .particle46 {
   left: 20px;
   opacity: 0;
-  background-color: rgba(27,80,118,255);
+  background-color: rgba(254,187,57,255);
   animation: particle-animation46 1s ease-in-out 1.8s 1 normal forwards;
 }
 .particle47 {
   left: 20px;
   opacity: 0;
-  background-color: rgba(27,80,118,255);
+  background-color: rgba(254,187,57,255);
   animation: particle-animation47 1s ease-in-out 1.8s 1 normal forwards;
 }
 .particle48 {
   left: 20px;
   opacity: 0;
-  background-color: rgba(27,80,118,255);
+  background-color: rgba(254,187,57,255);
   animation: particle-animation48 1s ease-in-out 1.8s 1 normal forwards;
 }
 .particle49 {
   left: 20px;
   opacity: 0;
-  background-color: rgba(27,80,118,255);
+  background-color: rgba(254,187,57,255);
   animation: particle-animation49 1s ease-in-out 1.8s 1 normal forwards;
 }
 .particle410 {
   left: 20px;
   opacity: 0;
-  background-color: rgba(27,80,118,255);
+  background-color: rgba(254,187,57,255);
   animation: particle-animation410 1s ease-in-out 1.8s 1 normal forwards;
 }
 .particle411 {
   left: 20px;
   opacity: 0;
-  background-color: rgba(27,80,118,255);
+  background-color: rgba(254,187,57,255);
   animation: particle-animation411 1s ease-in-out 1.8s 1 normal forwards;
 }
 .particle412 {
   left: 20px;
   opacity: 0;
-  background-color: rgba(27,80,118,255);
+  background-color: rgba(254,187,57,255);
   animation: particle-animation412 1s ease-in-out 1.8s 1 normal forwards;
 }
 .particle50 {
@@ -11046,7 +11036,7 @@ left: 64%;
   100% { content:"기업, 세계 명문대들과 함께하는 캡스톤 프로그램"; }
 }
 #specials {
-  padding-top: 150px;
+/*  padding-top: 150px;*/
 }
 
 .specials {
