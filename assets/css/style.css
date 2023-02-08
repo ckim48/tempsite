@@ -1542,8 +1542,8 @@ section {
     font-size: 23px;
   color:rgba(27,80,118,255);
 }
-body [data-aos-delay='4500'][data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='4500'].aos-animate {
-   transition-delay: 4.5s;
+body [data-aos-delay='4000'][data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='4000'].aos-animate {
+   transition-delay: 4s;
 }
 .criterion {
   font-family: 'Montserrat', sans-serif;
