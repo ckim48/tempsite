@@ -299,7 +299,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: black;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -324,7 +324,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(43, 111, 142, 0.9);
+  background: rgba(27,80,118,255);
   transition: 0.3s;
 }
 
@@ -11099,4 +11099,11 @@ left: 64%;
     background: #ffb03b;
   }
 }
-
+.lan{
+    font-family: "Raleway", sans-serif;
+  font-size: 15px;
+/*  font-style: italic;*/
+  font-weight: 500;
+  color: rgba(27,80,118,255);
+  float: right;
+}
