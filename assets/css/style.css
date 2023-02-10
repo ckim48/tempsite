@@ -11107,3 +11107,8 @@ left: 64%;
   color: rgba(27,80,118,255);
   float: right;
 }
+@media (max-width: 991px) {
+.lan{
+    display:none;
+}
+  }
