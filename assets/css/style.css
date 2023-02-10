@@ -11030,10 +11030,21 @@ left: 64%;
   animation: spin 10s linear infinite;
 }
 
+#hi2:after {
+  content: "";
+  animation: spin2 10s linear infinite;
+}
+
 @keyframes spin {
   0% { content:"분야별 코딩 전문가들이 모여 결성된 팀"; }
   50%{content:"Python, Java, C++ 등, 다양한 분야의 강의"}
   100% { content:"기업, 세계 명문대들과 함께하는 캡스톤 프로그램"; }
+}
+
+@keyframes spin2 {
+  0% { content:"Programs partnering with world renowned universities & business companies"; }
+  50%{content:"Lectures in various fields: Python, Java, C++"}
+  100% { content:"Individually Tailored Projects"; }
 }
 #specials {
 /*  padding-top: 150px;*/
