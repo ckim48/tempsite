@@ -1545,6 +1545,9 @@ section {
 body [data-aos-delay='4000'][data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='4000'].aos-animate {
    transition-delay: 4s;
 }
+body [data-aos-delay='5000'][data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='5000'].aos-animate {
+   transition-delay: 4s;
+}
 .criterion {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.6rem;
@@ -1667,23 +1670,39 @@ left: 64%;
   animation: text-animation4 1s ease-in-out 1.8s 1 normal forwards, text2-animation4 2s ease-in-out 3s 1 normal forwards;
 }
 
-/*.text5 {
+.text5 {
   left: 60px;
   top: 0;
-  animation: text-animation5 1s ease-in-out 2s 1 normal forwards, text2-animation5 2s ease-in-out 5s 1 normal forwards;
+  animation: text-animation5 1s ease-in-out 2s 1 normal forwards, text2-animation5 2s ease-in-out 3s 1 normal forwards;
 }
-.text5::after {
-  animation: text-after-animation5 2s ease-in-out 3s 1 normal forwards;
-}
+
 .text6 {
   left: 100px;
   top: 0;
-  animation: text-animation6 1s ease-in-out 2.2s normal forwards, text2-animation6 2s ease-in-out 5s 1 normal forwards;
+  animation: text-animation6 1s ease-in-out 2.2s normal forwards, text2-animation6 2s ease-in-out 3s 1 normal forwards;
 }
-.text6::after {
-  animation: text-after-animation6 2s ease-in-out 3s normal forwards;
+.text7 {
+  left: 140px;
+  top: 0;
+  animation: text-animation6 1s ease-in-out 2.4s normal forwards, text2-animation7 2s ease-in-out 3s 1 normal forwards;
 }
-*/
+.text8 {
+  left: 180px;
+  top: 0;
+  animation: text-animation6 1s ease-in-out 2.6s normal forwards, text2-animation8 2s ease-in-out 3s 1 normal forwards;
+}
+.text9 {
+  left: 220px;
+  top: 0;
+  animation: text-animation6 1s ease-in-out 2.8s normal forwards, text2-animation9 2s ease-in-out 3s 1 normal forwards;
+}
+.text10 {
+  left: 240px;
+  top: 0;
+  animation: text-animation6 1s ease-in-out 3s normal forwards, text2-animation10 2s ease-in-out 3s 1 normal forwards;
+}
+
+
 @-moz-keyframes text-animation0 {
   0% {
     transform: scale(0, 0);
@@ -3084,6 +3103,20 @@ left: 64%;
     opacity: 0;
   }
 }
+@keyframes text2-animation7 {
+  0% {
+    left: 140px;
+    opacity: 1;
+  }
+  50% {
+    left: 180px;
+    opacity: 0;
+  }
+  100% {
+    left: 180px;
+    opacity: 0;
+  }
+}
 
 @-moz-keyframes text2-animation8 {
   0% {
@@ -3138,6 +3171,34 @@ left: 64%;
   }
   100% {
     left: 220px;
+    opacity: 0;
+  }
+}
+@keyframes text2-animation9 {
+  0% {
+    left: 220px;
+    opacity: 1;
+  }
+  50% {
+    left: 260px;
+    opacity: 0;
+  }
+  100% {
+    left: 260px;
+    opacity: 0;
+  }
+}
+@keyframes text2-animation10 {
+  0% {
+    left: 260px;
+    opacity: 1;
+  }
+  50% {
+    left: 300px;
+    opacity: 0;
+  }
+  100% {
+    left: 300px;
     opacity: 0;
   }
 }
@@ -11123,3 +11184,15 @@ left: 64%;
     display:none;
 }
   }
+
+.text-blue{
+color:rgba(27,80,118,255);
+font-weight: 500;
+font-size: 34px;
+}
+.text-yellow{
+  color:rgba(254,187,57,255);
+  font-weight: 500;
+  font-size: 34px;
+
+}
