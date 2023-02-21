@@ -152,12 +152,11 @@ h6 {
   margin-left: 10px;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
-  font-weight: 1000;
-  color:rgba(27,80,118,255);
+  font-weight: 700;
+  color: black;
 /*  color:black;*/
   white-space: nowrap;
   transition: 0.3s;
-
 }
 
 .navbar a i,
@@ -171,8 +170,9 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  background: rgba(254,187,57,1);
-/*  rgba(255, 255, 255, 0.2);*/
+/*  background: rgba(254,187,57,1);*/
+  color: rgba(27,80,118,255);
+/* color: rgba(255, 255, 255, 0.2);*/
 }
 
 .navbar .dropdown ul {
@@ -411,9 +411,12 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  /*,*/
-  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),url("../img/hero-bg3.jpg") bottom right;
+  /*linear-gradient(rgba(255, 255, 255, 0.1),rgba(55, 142, 181, 0.17)),*/
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../img/hero-bg2.jpg") bottom center; 
+  background-repeat: no-repeat;
+  
   background-size: cover;
+  background-position: 200 80px;
   position: relative;
   margin-bottom: -90px;
 
@@ -421,6 +424,7 @@ h6 {
 
 #hero img{
   max-width: 28%;
+/*  background-color: rgba(255, 255, 255, 0.7);*/
 }
 #hero .hero-container {
   position: absolute;
@@ -465,7 +469,7 @@ h6 {
   height: 64px;
   text-align: center;
   border: 2px solid blac;
-  color: rgba(254,187,57,255);
+  color: black;
 }
 
 #hero .btn-get-started:hover {
@@ -11060,7 +11064,7 @@ left: 64%;
   margin-bottom: 50px;
   font-size: 20px;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 300;
   text-shadow: -1px 0 2px #2f4d5a;
   animation: pulse 5s;
 }
@@ -11110,13 +11114,10 @@ left: 64%;
   50%{content:"Lectures in various fields: Python, Java, C++"}
   100% { content:"Individually Tailored Projects"; }
 }
-
 #specials {
 /*  padding-top: 150px;*/
 }
-.typed{
-  color:rgba(27,80,118,255) !important;
-}
+
 .specials {
   overflow: hidden;
 }
