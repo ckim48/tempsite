@@ -271,7 +271,7 @@
       strings: typed_strings,
       loop: true,
       cursorChar: '|',
-      typeSpeed: 100,
+      typeSpeed: 75,
       backSpeed: 50,
       backDelay: 2000
     });
