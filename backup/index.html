@@ -28,7 +28,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style4.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
 
 
 </head>
@@ -39,23 +39,23 @@
   <header id="header" class="fixed-top header-transparent">
     <div class="container d-flex align-items-center justify-content-between position-relative">
 
-      <div class="logo">
+      <!-- <div class="logo"> -->
         <!-- <h1 class="text-light"><a href="index.html"><span>Squadfree</span></a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-      </div>
+      <!-- </div> -->
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero" data-aos="zoom-in"
+          <li><a class="nav-link scrollto active color-blue b" href="#hero" data-aos="zoom-in"
       src="logo.png" data-aos-once ="True">Home</a></li>
-          <li><a class="nav-link scrollto" href="eco8.html" data-aos="zoom-in"
+          <li><a class="nav-link scrollto b" href="eco8.html" data-aos="zoom-in"
       src="logo.png" data-aos-once ="True">Project Eco8</a></li>
-          <li><a class="nav-link scrollto" href="team.html" data-aos="zoom-in"
+          <li><a class="nav-link scrollto b" href="team.html" data-aos="zoom-in"
       src="logo.png" data-aos-once ="True">Team</a></li>
-          <li><a class="nav-link scrollto" href="courses.html" data-aos="zoom-in"
+          <li><a class="nav-link scrollto b" href="courses.html" data-aos="zoom-in"
       src="logo.png" data-aos-once ="True">Courses</a></li>          
-          <li><a class="nav-link scrollto" href="contactUs.html" data-aos="zoom-in"
+          <li><a class="nav-link scrollto b" href="contactUs.html" data-aos="zoom-in"
       src="logo.png" data-aos-once ="True">Contact</a></li>
         </ul>
 
@@ -75,10 +75,11 @@
 
 
   <section id="hero">
+    <div class="herobg"></div>
 
     <div class="hero-container">
-      <div class="eraser mt-3">
-      <img src="assets/img/logo.png" alt="" class="img-fluid mt-3" data-aos="zoom-in"
+      <div class="eraser  mt-5">
+      <img src="assets/img/logo.png" alt="" class="img-fluid mt-5" data-aos="zoom-in"
       src="logo.png" data-aos-once ="True">
     </div>
 
@@ -86,22 +87,12 @@
       <!-- <h2 class="mt-5">분야별 코딩 전문가들이 모여 결성된 선생님들</h2> -->
 <!--       <div id="app" class="mt-5" data-aos="zoom-in"
       src="logo.png" data-aos-once ="True">
-        <p id="hi"></p>
-
-
-   </div> -->
-<div>
-<div class="text33 mt-5 mr-5">
-  <p>
-    <span class="word wisteria">분야별 코딩 전문가들이 모여 결성된 팀</span>
-    <span class="word belize">Python, Java, C++ 등, 다양한 분야의 강의</span>
-    <span class="word pomegranate">기업, 세계 명문대들과 함께하는 캡스톤 프로그램</span>
-
-  </p>
-</div>
-
+        <p id="hi"></p> -->
+<div class="mt-5">
+<h2><span class="typed mt-5" data-typed-items="분야별 코딩 전문가들이 모여 결성된 팀; Python, Java, C++ 등, 다양한 분야의 강의,기업; 세계 명문대들과 함께하는 캡스톤 프로그램"></span></h2>
 
    </div>
+
       <a href="#about" class="btn-get-started scrollto mt-5" data-aos="zoom-in"
       src="logo.png" data-aos-once ="True"><i class="bx bx-chevrons-down" data-aos="zoom-in"
       src="logo.png" data-aos-once ="True"></i></a>
@@ -268,83 +259,14 @@
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script>
-      var words = document.getElementsByClassName('word');
-var wordArray = [];
-var currentWord = 0;
 
-words[currentWord].style.opacity = 1;
-for (var i = 0; i < words.length; i++) {
-  splitLetters(words[i]);
-}
-
-function changeWord() {
-  var cw = wordArray[currentWord];
-  var nw = currentWord == words.length-1 ? wordArray[0] : wordArray[currentWord+1];
-  for (var i = 0; i < cw.length; i++) {
-    animateLetterOut(cw, i);
-  }
-  
-  for (var i = 0; i < nw.length; i++) {
-    nw[i].className = 'letter behind';
-    nw[0].parentElement.style.opacity = 1;
-    animateLetterIn(nw, i);
-  }
-  
-  currentWord = (currentWord == wordArray.length-1) ? 0 : currentWord+1;
-}
-
-function animateLetterOut(cw, i) {
-  setTimeout(function() {
-    cw[i].className = 'letter out';
-  }, i*60);
-}
-
-function animateLetterIn(nw, i) {
-  setTimeout(function() {
-    nw[i].className = 'letter in';
-  }, 340+(i*80));
-}
-
-function splitLetters(word) {
-  var content = word.innerHTML;
-  word.innerHTML = '';
-  var letters = [];
-  console.log(content.length)
-
-  for (var i = 0; i < content.length; i++) {
-    var letter = document.createElement('span');
-    letter.className = 'letter';
-    if (content.charAt(i) == ' ')
-      letter.innerHTML =' &nbsp';
-    else{
-          letter.innerHTML = content.charAt(i);
- 
-    }
-
-    word.appendChild(letter);
-    letters.push(letter);
-  }
-  
-  wordArray.push(letters);
-  for (var i =0; i<wordArray.length;i++){
-    for (var j =0; j<wordArray[i].length;j++){
-      console.log(wordArray[i][j]);
-    }
-  }
-  
-}
-
-changeWord();
-setInterval(changeWord, 4000);
-
-  </script>
 </body>
 
 </html>
