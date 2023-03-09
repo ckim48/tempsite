@@ -1,48 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>LognCoding Eco8</title>
-    <meta
-      name="description"
-      content="Eco8"
-    />
-    <meta content="" name="keywords" />
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <title>로그엔코딩</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <!-- Google Fonts -->
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.19.0/core.min.js" integrity="sha512-t4NGjfaRaGCjmiTGBsiG3w8FCp8ZY7dPlwZAXfeoGPARUT/rt3OP0NpQkblSgZy/2R8vPTXiEcq/zcWIJ8NusQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-      rel="stylesheet"
-    />
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    <!-- Vendor CSS Files -->
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
-    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-  </head>
+</head>
 
-  <body>
-    <!-- ======= Header ======= -->
+<body>
+
+  <!-- ======= Header ======= -->
   <header id="header" class="fixed-top header-transparent">
     <div class="container d-flex align-items-center justify-content-between position-relative">
 
@@ -54,28 +46,47 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active myhover" href="#hero" data-aos="zoom-in"
+          <li><a class="nav-link scrollto active myhover" href="index.html" data-aos="zoom-in"
       src="logo.png" data-aos-once ="True">Home</a></li>
-          <li><a class="nav-link scrollto myhover" href="internships.html" data-aos="zoom-in"
-      src="logo.png" data-aos-once ="True">Internship</a></li>
+          <li class="dropdown"><a href="#"data-aos="zoom-in"
+      src="logo.png" data-aos-once ="True"><span>Capstone</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown"><a href="#"><span>Past</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="https://hygieneheroeszeta.netlify.app/">Hygiene Heroes Zeta</a></li>
+                  <li><a href="https://planetplus.netlify.app">Planet Plus</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Current</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="eco8.html">Eco 8</a></li>
+                </ul>
+              </li>
+                <li class="dropdown"><a href="#"><span>Upcoming</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a class="nav-link disabled"href="#">Coming Soon</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
           <li><a class="nav-link scrollto myhover" href="team.html" data-aos="zoom-in"
       src="logo.png" data-aos-once ="True">Team</a></li>
-          <li><a class="nav-link scrollto myhover" href="eco8.html" data-aos="zoom-in"
-      src="logo.png" data-aos-once ="True">Capstone</a></li>
           <li><a class="nav-link scrollto myhover" href="courses.html" data-aos="zoom-in"
       src="logo.png" data-aos-once ="True">Courses</a></li>          
-          <li><a class="nav-link scrollto myhover" href="contactUs.html" data-aos="zoom-in"
+          <li><a class="nav-link scrollto  active myhover" href="contactUs.html" data-aos="zoom-in"
       src="logo.png" data-aos-once ="True">Contact</a></li>
         </ul>
-      <i class="bi bi-list mobile-nav-toggle" data-aos="zoom-in"
+              <i class="bi bi-list mobile-nav-toggle" data-aos="zoom-in"
       src="logo.png" data-aos-once ="True"></i>
          <div class="right">
 
              <a class="text-gray lan" href="index_EN.html" data-aos="zoom-in"
-      src="logo.png" data-aos-once ="True"><span class="gray">English</span>&nbsp|&nbsp<span class="kor">한국어</span></a>      </nav><!-- .navbar -->
+      src="logo.png" data-aos-once ="True"><span class="gray">English</span>&nbsp|&nbsp<span class="kor">한국어</span></a>
+      </nav><!-- .navbar -->
 
     </div>
-  </header>
+  </header><!-- End Header -->
+
     <!-- End Header -->
        
 
