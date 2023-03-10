@@ -427,9 +427,12 @@ h6 {
   background-position: 200 80px;
   position: relative;
   margin-bottom: -90px;
-
 }
-
+@media only screen and (max-width: 600px) {
+  #hero{
+    background-position: linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.93)), url("../img/top-img.jpg") bottom right; 
+}
+}
 #hero img{
   max-width: 28%;
 /*  background-color: rgba(255, 255, 255, 0.7);*/

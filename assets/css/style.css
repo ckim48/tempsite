@@ -420,7 +420,7 @@ h6 {
   width: 100%;
   height: 100vh;
   /*linear-gradient(rgba(255, 255, 255, 0.1),rgba(55, 142, 181, 0.17)),*/
-  background: linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.93)), url("../img/hero-bg5.jpg") bottom center; 
+  background: linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.93)), url("../img/top-img.jpg") bottom center; 
   background-repeat: no-repeat;
   
   background-size: cover;
@@ -11275,4 +11275,141 @@ animation-play-state: play;
   align-items: center;
   text-align: center;
   margin-left: 5%;
+}
+
+
+#about {
+  background: #fff;
+  padding: 80px 0;
+}
+
+#about .about-img {
+  overflow: hidden;
+}
+
+#about .about-img img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+  #about .about-img {
+    height: auto;
+  }
+
+  #about .about-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
+#about .about-content {
+  background: #fff;
+}
+
+#about .about-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#about .about-text {
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+#about .about-text:last-child {
+  margin-bottom: 0;
+}
+.closed{
+  color:#CB2308;
+}
+.project-list{
+  list-style: none;
+}
+.project-list li{
+  font-size: 12px;
+  display:inline-block;
+  padding: 7px;
+  border-radius: 5px;
+  margin-right: 12px;
+
+}
+.app-closed{
+  background-color: darkgray;
+  color:white;
+}
+.pro-inprogress{
+  background-color: lightgreen;
+  color:white;
+}
+.pro-complete{
+  background-color: #CB2308;
+  color:white;
+}
+.proimg{
+  border-radius: 15px;
+}
+.text-black{
+  color:black;
+}
+.pro-text{
+  font-size: 17px;
+}
+.font-small{
+  font-size: 15px;
+}
+.text-dark{
+  color:#444444 !important;
+}
+.contact-list{
+  list-style: none;
+}
+
+#header .countdown {
+  margin-bottom: 80px;
+}
+
+.countdown div {
+  text-align: center;
+  margin: 10px;
+  width: 100px;
+  padding: 15px 0;
+  background: rgba(255, 255, 255, 0.12);
+  border-top: 5px solid rgba(27,80,118,255);
+}
+
+.countdown div h3 {
+  font-weight: 700;
+  font-size: 44px;
+  margin-bottom: 15px;
+}
+
+.countdown div h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 575px) {
+  .countdown div {
+    width: 70px;
+    padding: 10px 0;
+    margin: 10px 8px;
+  }
+
+  .countdown div h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .countdown div h4 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+.activep{
+  color:#3DBD52;
+}
+.xprtis{
+  color:rgba(27,80,118,255);
 }
