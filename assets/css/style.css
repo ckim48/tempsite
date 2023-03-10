@@ -11081,7 +11081,11 @@ button.btn.btn-link i {
   .card{
     margin-left:30px;
     margin-right:30px;
+
   }
+
+
+
 
 }
 /* Bar Graph Horizontal */
@@ -11201,7 +11205,7 @@ animation-play-state: play;
     width: 0;
   }
   100% {
-    width: 70.6%;
+    width: 60.6%;
   }
 }
 
