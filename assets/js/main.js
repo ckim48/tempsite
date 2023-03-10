@@ -369,6 +369,32 @@
       elements7.forEach(el => {
         observer7.observe(el, options);
       });
+      
+                              const startAnimation8 = (entries, observer) => {
+        entries.forEach(entry => {
+          entry.target.classList.toggle("barEight", entry.isIntersecting);
+        });
+      };
+      const observer8 = new IntersectionObserver(startAnimation8);
+
+      const elements8 = document.querySelectorAll('.eigthBar');
+      elements8.forEach(el => {
+        observer8.observe(el, options);
+      });
+
+
+                              const startAnimation9 = (entries, observer) => {
+        entries.forEach(entry => {
+          entry.target.classList.toggle("barNine", entry.isIntersecting);
+        });
+      };
+      const observer9 = new IntersectionObserver(startAnimation9);
+
+      const elements9 = document.querySelectorAll('.ninthBar');
+      elements9.forEach(el => {
+        observer9.observe(el, options);
+      });
+
         let countdown = select('.countdown');
   const output = countdown.innerHTML;
 

@@ -11084,7 +11084,9 @@ button.btn.btn-link i {
 
   }
 
-
+.bar-graph-one .bar::after{
+  display: none;
+}
 
 
 }
@@ -11132,6 +11134,7 @@ animation-play-state: play;
   color: #fff;
   content: attr(data-percentage);
   font-weight: 700;
+  font-size: 15px;
   position: absolute;
   right: 16px;
   top: 17px;
@@ -11160,6 +11163,12 @@ animation-play-state: play;
   background-color: #85C1E9;
 }
 .bar-graph-one .bar-seven .bar {
+  background-color: #85C1E9;
+}
+.bar-graph-one .bar-eight .bar {
+  background-color: #85C1E9;
+}
+.bar-graph-one .bar-nine .bar {
   background-color: #85C1E9;
 }
 
@@ -11197,6 +11206,16 @@ animation-play-state: play;
     -webkit-animation: show-bar-seven 1.5s 0.7s forwards;
   -moz-animation: show-bar-seven 1.5s 0.7s forwards;
   animation: show-bar-seven 1.5s 0.7s forwards;
+}
+.barEight{
+    -webkit-animation: show-bar-seven 1.5s 0.8s forwards;
+  -moz-animation: show-bar-seven 1.5s 0.8s forwards;
+  animation: show-bar-seven 1.5s 0.8s forwards;
+}
+.barNine{
+    -webkit-animation: show-bar-seven 1.5s 0.9s forwards;
+  -moz-animation: show-bar-seven 1.5s 0.9s forwards;
+  animation: show-bar-seven 1.5s 0.9s forwards;
 }
 
 /* Bar Graph Horizontal Animations */
@@ -11252,6 +11271,22 @@ animation-play-state: play;
   }
 }
 @-webkit-keyframes show-bar-seven {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 5%
+  }
+}
+@-webkit-keyframes show-bar-eight {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 5%
+  }
+}
+@-webkit-keyframes show-bar-nine {
   0% {
     width: 0;
   }
@@ -11329,6 +11364,7 @@ animation-play-state: play;
   color:#CB2308;
 }
 .project-list{
+  margin-right: 10px;
   list-style: none;
 }
 .project-list li{
@@ -11353,6 +11389,8 @@ animation-play-state: play;
 }
 .proimg{
   border-radius: 15px;
+  height:80%;
+  margin-left: 25%;
 }
 .text-black{
   color:black;
