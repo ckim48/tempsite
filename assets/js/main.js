@@ -273,11 +273,29 @@
       cursorChar: '|',
       typeSpeed: 75,
       startDelay: 1200,
+  onStringTyped: function() {
+    return elem.siblings('.typed-cursor').remove();
+  }
+    });
+  }
+var elem;
+
+elem = $('.typed');
+
+
+ const typed2 = select('.typed2')
+  if (typed2) {
+    let typed_strings = typed2.getAttribute('data-typed-items2')
+    typed_strings = typed_strings.split(';')
+    new Typed('.typed2', {
+      strings: typed_strings,
+      loop: false,
+      cursorChar: '|',
+      typeSpeed: 75,
+      startDelay: 5000,
 
     });
   }
-
-
       
   /**
    * Initiate Pure Counter 
@@ -369,7 +387,7 @@
       elements7.forEach(el => {
         observer7.observe(el, options);
       });
-      
+
                               const startAnimation8 = (entries, observer) => {
         entries.forEach(entry => {
           entry.target.classList.toggle("barEight", entry.isIntersecting);
