@@ -10925,10 +10925,18 @@ p {
   text-align:center;
   overflow: hidden;
 }
+.card-body{
+  text-align: center;
+}
+#services .card{
+  height: 100px;
+  width: 80%;
+  border-radius: 15%;
+}
 .card-img-top{
-  width:50%;
+  width:25%;
   padding-top:18px;
-  height:150px;
+  height:80px;
   left:50%;
   object-fit:content;
   opacity: 0.85;
@@ -11262,4 +11270,9 @@ animation-play-state: play;
 
 .tim{
   height: 300px;
+}
+.ser{
+  align-items: center;
+  text-align: center;
+  margin-left: 5%;
 }
