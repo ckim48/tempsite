@@ -11127,48 +11127,64 @@ animation-play-state: play;
 
 .bar-graph-one .bar-one .bar {
   background-color: #1B4F72;
-  -webkit-animation: show-bar-one 1.2s 0.1s forwards;
-  -moz-animation: show-bar-one 1.2s 0.1s forwards;
-  animation: show-bar-one 1.2s 0.1s forwards;
 }
 
 .bar-graph-one .bar-two .bar {
   background-color: #21618C;
-  -webkit-animation: show-bar-two 1.2s 0.2s forwards;
-  -moz-animation: show-bar-two 1.2s 0.2s forwards;
-  animation: show-bar-two 1.2s 0.2s forwards;
 }
 
 .bar-graph-one .bar-three .bar {
   background-color: #2874A6;
-  -webkit-animation: show-bar-three 1.2s 0.3s forwards;
-  -moz-animation: show-bar-three 1.2s 0.3s forwards;
-  animation: show-bar-three 1.2s 0.3s forwards;
 }
 
 .bar-graph-one .bar-four .bar {
   background-color: #2E86C1;
-  -webkit-animation: show-bar-four 1.2s 0.4s forwards;
-  -moz-animation: show-bar-four 1.2s 0.4s forwards;
-  animation: show-bar-four 1.2s 0.4s forwards;
+
 }
 .bar-graph-one .bar-five .bar {
   background-color: #5DADE2;
-  -webkit-animation: show-bar-five 1.2s 0.5s forwards;
-  -moz-animation: show-bar-five 1.2s 0.5s forwards;
-  animation: show-bar-five 1.2s 0.5s forwards;
 }
 .bar-graph-one .bar-six .bar {
   background-color: #85C1E9;
-  -webkit-animation: show-bar-six 1.2s 0.6s forwards;
-  -moz-animation: show-bar-six 1.2s 0.6s forwards;
-  animation: show-bar-six 1.2s 0.6s forwards;
 }
 .bar-graph-one .bar-seven .bar {
   background-color: #85C1E9;
-  -webkit-animation: show-bar-seven 1.2s 0.7s forwards;
-  -moz-animation: show-bar-seven 1.2s 0.7s forwards;
-  animation: show-bar-seven 1.2s 0.7s forwards;
+}
+
+.barOne{
+  -webkit-animation: show-bar-one 1.5s 0.1s forwards;
+  -moz-animation: show-bar-one 1.5s 0.1s forwards;
+  animation: show-bar-one 1.5s 0.1s forwards;
+}
+.barTwo{
+  -webkit-animation: show-bar-two 1.5s 0.2s forwards;
+  -moz-animation: show-bar-two 1.5s 0.2s forwards;
+  animation: show-bar-two 1.5s 0.2s forwards;
+}
+.barThree{
+    -webkit-animation: show-bar-three 1.5s 0.3s forwards;
+  -moz-animation: show-bar-three 1.5s 0.3s forwards;
+  animation: show-bar-three 1.5s 0.3s forwards;
+}
+.barFour{
+    -webkit-animation: show-bar-four 1.5s 0.4s forwards;
+  -moz-animation: show-bar-four 1.5s 0.4s forwards;
+  animation: show-bar-four 1.5s 0.4s forwards;
+}
+.barFive{
+    -webkit-animation: show-bar-five 1.5s 0.5s forwards;
+  -moz-animation: show-bar-five 1.5s 0.5s forwards;
+  animation: show-bar-five 1.5s 0.5s forwards;
+}
+.barSix{
+    -webkit-animation: show-bar-six 1.5s 0.6s forwards;
+  -moz-animation: show-bar-six 1.5s 0.6s forwards;
+  animation: show-bar-six 1.5s 0.6s forwards;
+}
+.barSeven{
+    -webkit-animation: show-bar-seven 1.5s 0.7s forwards;
+  -moz-animation: show-bar-seven 1.5s 0.7s forwards;
+  animation: show-bar-seven 1.5s 0.7s forwards;
 }
 
 /* Bar Graph Horizontal Animations */
@@ -11186,7 +11202,7 @@ animation-play-state: play;
     width: 0;
   }
   100% {
-    width: 40%;
+    width: 52%;
   }
 }
 

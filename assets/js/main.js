@@ -277,145 +277,97 @@
     });
   }
 
-const spyEls = document.querySelectorAll('.scroll-spy')
-spyEls.forEach(function(spyEl){
-  new ScrollMagic
-    .Scene({ // 감시할 장면(Scene)을 추가
-      triggerElement: spyEl, // 보여짐 여부를 감시할 요소를 지정
-      triggerHook: .8 // 화면의 80% 지점에서 보여짐 여부 감시
-    })
-    .setClassToggle(spyEl, 'show') // 요소가 화면에 보이면 show 클래스 추가
-    .addTo(new ScrollMagic.Controller()) // 컨트롤러에 장면을 할당(필수!)
-})
 
-var options = {
-          series: [
-          {
-            name: 'Actual',
-            data: [
-              {
-                x: '2011',
-                y: 12,
-                goals: [
-                  {
-                    name: 'Expected',
-                    value: 14,
-                    strokeWidth: 2,
-                    strokeDashArray: 2,
-                    strokeColor: '#775DD0'
-                  }
-                ]
-              },
-              {
-                x: '2012',
-                y: 44,
-                goals: [
-                  {
-                    name: 'Expected',
-                    value: 54,
-                    strokeWidth: 5,
-                    strokeHeight: 10,
-                    strokeColor: '#775DD0'
-                  }
-                ]
-              },
-              {
-                x: '2013',
-                y: 54,
-                goals: [
-                  {
-                    name: 'Expected',
-                    value: 52,
-                    strokeWidth: 10,
-                    strokeHeight: 0,
-                    strokeLineCap: 'round',
-                    strokeColor: '#775DD0'
-                  }
-                ]
-              },
-              {
-                x: '2014',
-                y: 66,
-                goals: [
-                  {
-                    name: 'Expected',
-                    value: 61,
-                    strokeWidth: 10,
-                    strokeHeight: 0,
-                    strokeLineCap: 'round',
-                    strokeColor: '#775DD0'
-                  }
-                ]
-              },
-              {
-                x: '2015',
-                y: 81,
-                goals: [
-                  {
-                    name: 'Expected',
-                    value: 66,
-                    strokeWidth: 10,
-                    strokeHeight: 0,
-                    strokeLineCap: 'round',
-                    strokeColor: '#775DD0'
-                  }
-                ]
-              },
-              {
-                x: '2016',
-                y: 67,
-                goals: [
-                  {
-                    name: 'Expected',
-                    value: 70,
-                    strokeWidth: 5,
-                    strokeHeight: 10,
-                    strokeColor: '#775DD0'
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-          chart: {
-          height: 350,
-          type: 'bar'
-        },
-        plotOptions: {
-          bar: {
-            horizontal: true,
-          }
-        },
-        colors: ['#00E396'],
-        dataLabels: {
-          formatter: function(val, opt) {
-            const goals =
-              opt.w.config.series[opt.seriesIndex].data[opt.dataPointIndex]
-                .goals
-        
-            if (goals && goals.length) {
-              return `${val} / ${goals[0].value}`
-            }
-            return val
-          }
-        },
-        legend: {
-          show: true,
-          showForSingleSeries: true,
-          customLegendItems: ['Actual', 'Expected'],
-          markers: {
-            fillColors: ['#00E396', '#775DD0']
-          }
-        }
-        };
-
-        var chart = new ApexCharts(document.querySelector("#chart"), options);
-        chart.render();
       
   /**
    * Initiate Pure Counter 
    */
   // new PureCounter();
+      const startAnimation = (entries, observer) => {
+        entries.forEach(entry => {
+          entry.target.classList.toggle("barOne", entry.isIntersecting);
+        });
+      };
 
+      const observer = new IntersectionObserver(startAnimation);
+      const options = { root: null, rootMargin: '0px', threshold: 1 }; 
+
+      const elements = document.querySelectorAll('.firstBar');
+      elements.forEach(el => {
+        observer.observe(el, options);
+      });
+
+
+            const startAnimation2 = (entries, observer) => {
+        entries.forEach(entry => {
+          entry.target.classList.toggle("barTwo", entry.isIntersecting);
+        });
+      };
+      const observer2 = new IntersectionObserver(startAnimation2);
+
+      const elements2 = document.querySelectorAll('.secondBar');
+      elements2.forEach(el => {
+        observer2.observe(el, options);
+      });
+
+                  const startAnimation3 = (entries, observer) => {
+        entries.forEach(entry => {
+          entry.target.classList.toggle("barThree", entry.isIntersecting);
+        });
+      };
+      const observer3 = new IntersectionObserver(startAnimation3);
+
+      const elements3 = document.querySelectorAll('.thirdBar');
+      elements3.forEach(el => {
+        observer3.observe(el, options);
+      });
+
+                  const startAnimation4 = (entries, observer) => {
+        entries.forEach(entry => {
+          entry.target.classList.toggle("barFour", entry.isIntersecting);
+        });
+      };
+      const observer4 = new IntersectionObserver(startAnimation4);
+
+      const elements4 = document.querySelectorAll('.fourthBar');
+      elements4.forEach(el => {
+        observer4.observe(el, options);
+      });
+
+                  const startAnimation5 = (entries, observer) => {
+        entries.forEach(entry => {
+          entry.target.classList.toggle("barFive", entry.isIntersecting);
+        });
+      };
+      const observer5 = new IntersectionObserver(startAnimation5);
+
+      const elements5 = document.querySelectorAll('.fifthBar');
+      elements5.forEach(el => {
+        observer5.observe(el, options);
+      });
+
+                        const startAnimation6 = (entries, observer) => {
+        entries.forEach(entry => {
+          entry.target.classList.toggle("barSix", entry.isIntersecting);
+        });
+      };
+      const observer6 = new IntersectionObserver(startAnimation6);
+
+      const elements6 = document.querySelectorAll('.sixthBar');
+      elements6.forEach(el => {
+        observer6.observe(el, options);
+      });
+
+                        const startAnimation7 = (entries, observer) => {
+        entries.forEach(entry => {
+          entry.target.classList.toggle("barSeven", entry.isIntersecting);
+        });
+      };
+      const observer7 = new IntersectionObserver(startAnimation7);
+
+      const elements7 = document.querySelectorAll('.seventhBar');
+      elements7.forEach(el => {
+        observer7.observe(el, options);
+      });
 })()
 
