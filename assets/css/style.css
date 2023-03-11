@@ -10939,7 +10939,7 @@ p {
 .card-img-top{
   width:25%;
   padding-top:18px;
-  height:80px;
+  height:75px;
   left:50%;
   object-fit:content;
   opacity: 0.85;
@@ -11076,8 +11076,12 @@ button.btn.btn-link i {
     display:none !important;
   }
   .typ{
-    display:none;
+    margin-top: -30px !important;
   }
+  .typ2{
+    margin-top: -25px !important;
+  }
+
   .navbar{
     align-items: right !important;
   }
