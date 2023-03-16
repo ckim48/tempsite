@@ -11462,6 +11462,14 @@ animation-play-state: play;
 /*    background: linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.93)), url("../img/top-img_mobile.jpg");*/
     background-position: 0 50%; 
   }
+  .card-img-top{
+    width:16%;
+    height:60px;
+}
+.mycard{
+  left:12%;
+  width: 15rem !important;
+}
 
 }
 .activep{
