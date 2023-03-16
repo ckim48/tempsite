@@ -11458,6 +11458,11 @@ animation-play-state: play;
     font-size: 14px;
     font-weight: 500;
   }
+  #hero{
+/*    background: linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.93)), url("../img/top-img_mobile.jpg");*/
+    background-position: 0 50%; 
+  }
+
 }
 .activep{
   color:#3DBD52;
