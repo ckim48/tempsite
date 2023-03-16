@@ -10939,7 +10939,7 @@ p {
 .card-img-top{
   width:25%;
   padding-top:18px;
-  height:75px;
+  height:70px;
   left:50%;
   object-fit:content;
   opacity: 0.85;
@@ -11478,4 +11478,40 @@ animation-play-state: play;
 .xprtis{
   color:rgba(27,80,118,255);
 }
+.cap-color{
+  font-size: 2.3rem !important;
+  text-shadow: none !important;
+}
+.cap-font{
+  font-size: 1rem;
+}
+#hero .actions a {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+}
+#hero .btn-get-started2 {
+  border: 2px solid black;
+  color: black;
+  background: white;
+}
 
+#hero .btn-get-started2:hover {
+  border: 2px solid rgba(254,187,57,255);
+/*  color: #fff;*/
+  background: rgba(254,187,57,255)
+}
+.hero2 {
+
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/cap-bg.jpg") top left !important;
+}
+/*.ml-5{
+  margin-left: 100px !important;
+}*/
