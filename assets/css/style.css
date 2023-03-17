@@ -11550,18 +11550,24 @@ thead {
   background-color: rgba(224, 224, 224 ,0.2);
 }
 .programs{
-  font-size: 18px;
+  font-size: 20px;
 }
 .programs p{
   font-weight: 500;
 }
-.programs h2{
+.programs h1{
   color: rgba(27,80,118,255) !important;
   }
 .programs ul{
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 300;
   list-style: none !important;
+}
+.index-team{
+  font-size: 17px;
+}
+.team-more{
+  font-size: 19px;
 }
 .text-bold{
  font-weight: 500;
