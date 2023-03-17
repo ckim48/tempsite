@@ -10656,7 +10656,13 @@ left: 64%;
 #specials {
 /*  padding-top: 150px;*/
 }
-
+/*#specials h3{
+  color:rgba(27,80,118,255);
+}*/
+.section-title2{
+  color:rgba(27,80,118,255);
+  font-size: 22px;
+}
 .specials {
   overflow: hidden;
 }
