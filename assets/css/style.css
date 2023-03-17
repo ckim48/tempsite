@@ -1013,11 +1013,11 @@ section {
 
 }
 .our-values .card {
-  border: 0;
+/*  border: 0;*/
   padding: 24px 24px 20px 20px;
   position: relative;
   width: 100%;
-  border-color: black;
+  border-color: rgba(27,80,118,1);
   background-color: rgba(27,80,118,1);
   color:#fff;
 /*  rgba(11,11,11,0.1);*/
@@ -1064,12 +1064,12 @@ section {
 
 /*.our-values .card:hover .card-title a,*/
 /*.our-values .card:hover .card-title,*/
-.our-values .card:hover,
+/*.our-values .card:hover,
 .our-values .card:hover .card-title a {
-  background-color: rgba(254,187,57,255);
-  
-  color: black;
-}
+  background-color: #fff;
+  border-color:rgba(27,80,118,1);
+  color: rgba(27,80,118,1);
+}*/
 
 #app{
   font-size: 23px;
@@ -10737,8 +10737,8 @@ left: 64%;
   right: 0;
   text-align: right;
 }
-@media (max-width: 991px) {
-.lan{
+@media (max-width: 1050px) {
+.right{
     display:none;
 }
   }
@@ -11237,7 +11237,7 @@ animation-play-state: play;
     width: 0;
   }
   100% {
-    width: 60.6%;
+    width: 55.6%;
   }
 }
 
@@ -11246,7 +11246,7 @@ animation-play-state: play;
     width: 0;
   }
   100% {
-    width: 52%;
+    width: 48%;
   }
 }
 
@@ -11377,7 +11377,7 @@ animation-play-state: play;
   color:#CB2308;
 }
 .project-list{
-  margin-left: -28px !important;
+  margin-left: -29px !important;
   list-style: none;
 }
 .project-list li{
@@ -11405,6 +11405,16 @@ animation-play-state: play;
   border-radius: 15px;
   height:80%;
   margin-left: 25%;
+}
+@media (max-width: 1200px) {
+.proimg{
+  margin-left: 10%;
+}
+}
+@media (max-width: 600px) {
+.proimg{
+  margin-left: 12%;
+}
 }
 .text-black{
   color:black;
@@ -11521,6 +11531,13 @@ animation-play-state: play;
   width: 100%;
   height: 450px;
 }
+@media (max-width: 768px) {
+  .cap{
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+  }
+}
 /*.ml-5{
   margin-left: 100px !important;
 }*/
@@ -11584,4 +11601,27 @@ thead {
 }
 .text-it{
   font-style: italic;
+}
+.mob-lan{
+  display: none !important;
+}
+@media (max-width: 1050px) {
+    .mob-lan{
+      display: inline-block !important;
+      float: left;
+    }
+    .programs{
+  font-size: 16px;
+  }
+  .programs p{
+    font-weight: 500;
+  }
+  .programs h1{
+    color: rgba(27,80,118,255) !important;
+    }
+  .programs ul{
+    font-size: 12px;
+    font-weight: 300;
+    list-style: none !important;
+  }
 }
