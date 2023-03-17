@@ -11624,4 +11624,15 @@ thead {
     font-weight: 300;
     list-style: none !important;
   }
+
+}
+@media (max-width: 600px) {
+  .mobile-x-5{
+  margin-left: 33px;
+  margin-right: 33px;
+}
+.member-img{
+    margin-left: 33px;
+  margin-right: 33px;
+  }
 }
