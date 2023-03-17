@@ -3,6 +3,7 @@ body {
     font-family: 'Poppins', sans-serif;
 font-family: 'Ubuntu', sans-serif;
   color: #444444;
+  text-align: justify;
 }
 
 a {
@@ -526,7 +527,23 @@ section {
   text-align: center;
   padding-bottom: 30px;
 }
-
+.section-title2 {
+  display: block;
+  padding-bottom: 30px;
+  font-size: 35px !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+/*  border-bottom: solid 2px black;*/
+}
+/*.section-title2:after{
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #e6636a;
+  margin: 4px 10px;
+}*/
 .section-title {
   text-align: center;
 
@@ -10656,6 +10673,11 @@ left: 64%;
 #specials {
 /*  padding-top: 150px;*/
 }
+#specials strong{
+  color:black;
+  font-weight: 700;
+}
+
 /*#specials h3{
   color:rgba(27,80,118,255);
 }*/
@@ -10939,7 +10961,7 @@ font-size: 34px;
 }
 #services .card{
   height: 100px;
-  width: 80%;
+  width: 70%;
   border-radius: 15%;
 }
 .card-img-top{
@@ -10990,7 +11012,7 @@ font-size: 34px;
 }
 #services .service-title2 {
     padding:10px;
-    font-size: 17px;
+    font-size: 15px;
   font-weight: 700;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -11377,7 +11399,7 @@ animation-play-state: play;
   color:#CB2308;
 }
 .project-list{
-  margin-left: -29px !important;
+  margin-left: -33px !important;
   list-style: none;
 }
 .project-list li{
@@ -11403,8 +11425,8 @@ animation-play-state: play;
 }
 .proimg{
   border-radius: 15px;
-  height:80%;
-  margin-left: 25%;
+  height:65%;
+  margin-left: 10%;
 }
 @media (max-width: 1200px) {
 .proimg{
@@ -11414,6 +11436,9 @@ animation-play-state: play;
 @media (max-width: 600px) {
 .proimg{
   margin-left: 12%;
+}
+.proimg{
+  height:75%;
 }
 }
 .text-black{
@@ -11477,8 +11502,8 @@ animation-play-state: play;
     background-position: 0 50%; 
   }
   .card-img-top{
-    width:16%;
-    height:60px;
+    width:15%;
+    height:50px;
 }
 .mycard{
   left:12%;
@@ -11594,12 +11619,16 @@ thead {
   font-weight: 800;
 }
 .active{
-  color:#2AC565;
+  color:#24A455;
 }
 .mymr{
   margin-top: 120px !important;
 }
 .text-it{
+  font-style: italic;
+  font-weight: 600;
+}
+.text-it-only{
   font-style: italic;
 }
 .mob-lan{
@@ -11635,4 +11664,7 @@ thead {
     margin-left: 33px;
   margin-right: 33px;
   }
+    .card-img-top{
+    width:20%;
+}
 }
