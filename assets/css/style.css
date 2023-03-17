@@ -11513,6 +11513,9 @@ animation-play-state: play;
 
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/cap-bg.jpg") top left !important;
 }
+.cap{
+  height: 500px;
+}
 /*.ml-5{
   margin-left: 100px !important;
 }*/
