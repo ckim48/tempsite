@@ -11732,6 +11732,14 @@ thead {
   .proimg{
     margin: 0;
   }
+  .active{
+    font-size: 28px;
+    margin:0 !important;
+  }
+    .closed{
+    font-size: 28px;
+    margin:0 !important;
+  }
 }
 @media (max-width: 600px) {
     #services .card{
