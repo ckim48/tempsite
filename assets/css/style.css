@@ -307,12 +307,19 @@ h6 {
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
-    display: block;
-  }
 
+    display: block !important; 
+
+  }
+  .navbar{
+    position: relative;
+    margin: 0 !important;
+    text-align: right !important;  
+  }
   .navbar ul {
     display: none;
   }
+
 }
 
 .navbar-mobile {
@@ -11711,6 +11718,20 @@ thead {
     .card-img-top{
     width:20%;
 }
+  .cap-mobile{
+    font-size: 28px !important;
+
+  }
+  .cap-mobile-p{
+    font-size: 15px !important;
+  }
+  .cap-mobile-content{
+        margin-right: 20px !important;
+
+  }
+  .proimg{
+    margin: 0;
+  }
 }
 @media (max-width: 600px) {
     #services .card{
@@ -11734,6 +11755,7 @@ thead {
       margin: 0 !important;
       padding: 0 !important;;
     }
+
   }
 table{
   text-align: center;
