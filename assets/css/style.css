@@ -11639,7 +11639,8 @@ thead {
 .text-bold:hover{
   font-weight: 800;
 }
-.active{
+.active2
+{
   color:#24A455;
 }
 .mymr{
@@ -11732,7 +11733,7 @@ thead {
   .proimg{
     margin: 0;
   }
-  .active{
+  .active2{
     font-size: 28px;
     margin:0 !important;
   }
@@ -11746,6 +11747,21 @@ thead {
   .pro-text{
     margin-left: 7px;
     margin-right: 7px;
+  }
+  #specials{
+    text-align: left;
+  }
+  #specials .section-title2{
+    font-size: 24px !important;
+
+  }
+    #specials h3{
+    font-size: 21px !important;
+
+  }
+  #specials .details p{
+    margin-left: 5px;
+    font-size: 14px !important;
   }
 }
 @media (max-width: 600px) {
