@@ -1078,6 +1078,9 @@ section {
   font-size: 12px;
   transition: 0.4s;
 }
+.our-values .read-more a:hover {
+    color: black;
+}
 
 /*.our-values .card:hover .card-title a,*/
 /*.our-values .card:hover .card-title,*/
@@ -10775,6 +10778,9 @@ left: 64%;
 font-weight: 500;
 font-size: 34px;
 }
+.color-yellow{
+    color:rgba(254,187,57,255) !important;
+}
 .text-yellow{
   color:rgba(254,187,57,255);
   font-weight: 500;
@@ -10919,6 +10925,8 @@ font-size: 34px;
 }
 #services .card{
   border: none;
+    width:200px !important;
+    height:180px !important;
 }
 .ital{
   font-style: italic;
@@ -11012,7 +11020,7 @@ font-size: 34px;
 }
 #services .service-title2 {
     padding:10px;
-    font-size: 15px;
+    font-size: 14px;
   font-weight: 700;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -11537,9 +11545,9 @@ animation-play-state: play;
   margin: 10px;
 }
 #hero .btn-get-started2 {
-  border: 2px solid black;
-  color: black;
-  background: white;
+  border: 2px solid rgba(27,80,118,255);
+  color: white;
+  background: rgba(27,80,118,255);
 }
 
 #hero .btn-get-started2:hover {
@@ -11549,7 +11557,13 @@ animation-play-state: play;
 }
 .hero2 {
 
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/cap-bg.jpg") top left !important;
+  background: linear-gradient(rgba(255,255,255, 0.95), rgba(255,255,255, 0.95)), url("../img/cap-bg.jpg") center left !important;
+}
+.color-white{
+  color:white !important;
+}
+.hero2 p{
+  color:black;
 }
 .cap{
   border-radius: 10px;
@@ -11655,6 +11669,28 @@ thead {
   }
 
 }
+
+@media (max-width: 966px) {
+  .mobile-x-5{
+  margin-left: 33px;
+  margin-right: 33px;
+}
+.member-img{
+    margin-left: 33px;
+  margin-right: 33px;
+  }
+  .card{
+    padding-right:0 !important;
+    padding-left:0 !important;
+
+  }
+  .card{
+    margin-left: 8% !important;
+  }
+    .card-img-top{
+    width:20%;
+}
+}
 @media (max-width: 600px) {
   .mobile-x-5{
   margin-left: 33px;
@@ -11664,7 +11700,58 @@ thead {
     margin-left: 33px;
   margin-right: 33px;
   }
+  .card{
+    padding-right:0 !important;
+    padding-left:0 !important;
+
+  }
+    .card{
+    margin-left: 16% !important;
+  }
     .card-img-top{
     width:20%;
 }
 }
+@media (max-width: 600px) {
+    #services .card{
+        padding: 0 !important;
+        margin: 0 !important;
+        left:17% !important;
+    }
+    #our-values .card{
+/*              padding: 0 !important;*/
+        margin-right: 15px  !important;
+        margin-left: 15px  !important;
+    }
+    .card-body{
+      margin-left: 10px !important;
+      margin-right: 10px !important;
+    }
+  }
+table{
+  text-align: center;
+  background-color: rgba(249, 242, 232, 0.5);
+
+}
+td{
+      padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+thead th{
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  background-color: rgba(187, 155, 101 ) !important;
+}
+table.table-bordered > thead > tr > th{
+    border:3px solid white;
+}
+table.table-bordered > tbody > tr > td{
+    border:3px solid white;
+}
+
+/*.table-responsive {
+  // Other values...
+  overflow-x: auto;
+  overflow-y: hidden;
+  // Other values...
+}*/
