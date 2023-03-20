@@ -11727,6 +11727,10 @@ thead {
       margin-left: 10px !important;
       margin-right: 10px !important;
     }
+    .card-img-top{
+      margin: 0 !important;
+      padding: 0 !important;;
+    }
   }
 table{
   text-align: center;
