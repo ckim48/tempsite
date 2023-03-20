@@ -11740,6 +11740,13 @@ thead {
     font-size: 28px;
     margin:0 !important;
   }
+  #about{
+    text-align: left;
+  }
+  .pro-text{
+    margin-left: 7px;
+    margin-right: 7px;
+  }
 }
 @media (max-width: 600px) {
     #services .card{
