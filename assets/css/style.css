@@ -11358,7 +11358,8 @@ animation-play-state: play;
 }
 
 .tim{
-  height: 300px;
+  border-radius: 5px;
+/*  height: 300px;*/
 }
 .ser{
   align-items: center;
@@ -11698,7 +11699,7 @@ thead {
     .card-img-top{
     width:20%;
 }
-.learn-more-btn{
+.team-more{
   margin-left: 20px !important;
 }
 }
@@ -11789,7 +11790,17 @@ thead {
       margin: 0 !important;
       padding: 0 !important;;
     }
+    .team-more{
+      padding-left: 30px;
+      margin-bottom: 20px;
+    }
 
+    
+    .tim{
+      margin-top: 27px;
+      margin-left: 70px !important;
+      width: 70%;
+    }
   }
 table{
   text-align: center;
