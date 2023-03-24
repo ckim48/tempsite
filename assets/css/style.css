@@ -11698,6 +11698,9 @@ thead {
     .card-img-top{
     width:20%;
 }
+.learn-more-btn{
+  margin-left: 20px !important;
+}
 }
 @media (max-width: 600px) {
   .mobile-x-5{
