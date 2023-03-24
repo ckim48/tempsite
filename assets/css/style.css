@@ -11564,8 +11564,9 @@ animation-play-state: play;
   background: rgba(254,187,57,255)
 }
 .hero2 {
+  background-size: auto;
 
-  background: linear-gradient(rgba(255,255,255, 0.95), rgba(255,255,255, 0.95)), url("../img/cap-bg.jpg") center left !important;
+  background: linear-gradient(rgba(255,255,255, 0.93), rgba(255,255,255, 0.93)), url("../img/cap-bg.jpg")  !important;
 }
 .color-white{
   color:white !important;
