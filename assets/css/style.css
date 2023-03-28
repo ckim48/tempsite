@@ -11566,7 +11566,7 @@ animation-play-state: play;
 .hero2 {
   background-size: auto;
 
-  background: linear-gradient(rgba(255,255,255, 0.93), rgba(255,255,255, 0.93)), url("../img/cap-bg.jpg")  !important;
+  background: linear-gradient(rgba(255,255,255, 0.92), rgba(255,255,255, 0.92)), url("../img/cap-bg4.jpg")  !important;
 }
 .color-white{
   color:white !important;
@@ -11757,7 +11757,7 @@ thead {
     text-align: left;
   }
   #specials .section-title2{
-    font-size: 24px !important;
+    font-size: 20px !important;
 
   }
     #specials h3{
@@ -11769,11 +11769,11 @@ thead {
     font-size: 14px !important;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 740px) {
     #services .card{
-        padding: 0 !important;
-        margin: 0 !important;
-        left:16% !important;
+/*        padding: 0 !important;
+        margin: 0 !important;*/
+        margin-left:120px !important;
     }
     #our-values .card{
 /*              padding: 0 !important;*/
@@ -11803,6 +11803,14 @@ thead {
       width: 70%;
     }
   }
+  @media (max-width: 500px) {
+        #services .card{
+/*        padding: 0 !important;
+        margin: 0 !important;*/
+        margin-left:55px !important;
+    }
+
+  }
 table{
   text-align: center;
   background-color: rgba(249, 242, 232, 0.5);
@@ -11823,7 +11831,10 @@ table.table-bordered > thead > tr > th{
 table.table-bordered > tbody > tr > td{
     border:3px solid white;
 }
+  #specials .section-title2{
+    font-size: 19px !important;
 
+  }
 /*.table-responsive {
   // Other values...
   overflow-x: auto;
