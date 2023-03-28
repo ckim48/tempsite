@@ -504,6 +504,12 @@ h6 {
     background-attachment: fixed;
   }
 }
+@media (min-width: 1024px) {
+  .cap-font{
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+}
 
 @media (max-width: 768px) {
   #hero h1 {
@@ -11539,6 +11545,7 @@ animation-play-state: play;
 }
 .cap-font{
   font-size: 1rem;
+  justify-content: center;
 }
 #hero .actions a {
   font-family: "Raleway", sans-serif;
